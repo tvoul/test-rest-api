@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagon Alley!</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="modal-hider hidden"></div>
+  <div class="register-and-login-links">
+  </div>
+  <div class="login hidden"></div>
+  <div class="register hidden"></div>
+  <ul class="horizontal">
+    <li class="horizontal"><a href="#index">Home</a></li>
+    <li class="horizontal"><a href="#shoppingCart">Cart</a></li>
+    <li class="horizontal"><a href="#user">Userpage</a></li>
+  </ul>
+
+  <section id="index">
+    <div class="addProduct hidden"></div>
+    <a href="/addProduct" id="addProduct">Add new product</a>
+
+    <main>
+      <!--
+        Product list will appear here
+      -->
+    </main>
+  </section>
+  <section id="shoppingCart">
+    <!--
+        Shopping cart will appear after products are added
+    -->
+  </section>
+  <section id="user">
+    <!--
+        Userpage will appear if someone is logged in,
+        information is show in the divs under section
+    -->
+  </section>
+  <div class="select-holder"></div>
+  <div class="data-table"></div>
+  <script src="/js/helpers.js"></script>
+  <script src="/js/rest-json-cleaner.js"></script>
+  <script src="/js/registration.js"></script>
+  <script src="/js/addProduct.js"></script>
+  <script src="/js/login.js"></script>
+  <script src="/js/register-and-login.js"></script>
+  <script src="/js/Product.js"></script>
+  <script src="/js/ProductList.js"></script>
+  <script src="/js/ShoppingCart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>

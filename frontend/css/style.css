@@ -1,0 +1,200 @@
+body {
+  background-color: rgba(0, 0, 0, 0.91);
+  color: whitesmoke;
+}
+
+table {
+  /* remove the cell-spacing between cells*/
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+tr {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.91);
+}
+
+tbody tr:nth-child(odd){
+  background-color: #eee;
+}
+
+
+th, td {
+  padding: 5px 10px;
+}
+
+th.number, td.number {
+  text-align: right;
+}
+
+.select-holder {
+  margin-bottom: 12px;
+}
+
+form {
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 340px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+label span {
+  display: inline-block;
+  width: 150px;
+}
+
+input[type="submit"] {
+  float: right;
+}
+
+.error {
+  color: rgb(211, 64, 64);
+  font-weight: bold;
+}
+
+.register, .login {
+  background-color: rgb(61, 106, 164);
+  position: fixed;
+  width: 540px;
+  left: calc(50vw - 220px);
+  top: 10vh;
+  padding: 20px;
+  height: 80vh;
+}
+
+.register-and-login-links {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.register-and-login-links a {
+  color: rgb(89, 132, 201);
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-hider {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.3;
+}
+
+a {
+  color: rgb(89, 132, 201);
+  text-decoration: none;
+}
+
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+li.horizontal{
+  right: 20px;
+  top: 20px;
+  display: inline;
+  text-decoration: none;
+}
+
+.productInList {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+  background-color: rgb(208, 220, 236);
+  color: rgba(0, 0, 0, 0.884);
+}
+
+.productInList h3 {
+  cursor: pointer;
+}
+
+.productInList img {
+  float: right;
+  width: 160px;
+  height: 160px;
+}
+
+.product {
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: rgb(208, 220, 236);
+  color: black; 
+}
+
+.product img {
+  float: right;
+  width: 25%;
+  height: 160px;
+}
+
+.backButton {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgb(89, 132, 201);
+  color: white;
+}
+
+.product .price {
+  float: right;
+  margin-top: -0px;
+  font-weight: 900;
+}
+
+.buyButton {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color:rgb(89, 132, 201); 
+  
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.shoppingCart {
+  right: 20px;
+  top: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.shoppingCart td {
+  padding: 2px 10px;
+  text-align: right;
+}
+
+.shoppingCart td:nth-child(2) {
+  text-align: left;
+}
+
+.shoppingCart tr:last-child {
+  padding-top: 10px;
+  font-weight: bold
+}

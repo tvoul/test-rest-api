@@ -1,0 +1,94 @@
+{
+  "visitor": {
+    "products": {
+      "get": true
+    },
+    "login": {
+      "post": true,
+      "get": true
+    },
+    "customers": {
+      "post": true
+    },
+    "place-my-order":{
+      "post":false
+    }
+  },
+  "user": {
+    "products": {
+      "get": true,
+      "post": true,
+      "put": true
+    },
+    "login": {
+      "get": true,
+      "delete": true
+    },
+    "my-orders": {
+      "get": true
+    },
+    "place-my-order": {
+      "post": true
+    },
+    "edit-my-user-info": {
+      "put": true
+    }
+  },
+  "superadmin": {
+    "products": {
+      "get": true,
+      "post": true,
+      "put": true,
+      "delete": true
+    },
+    "customers": {
+      "get": true,
+      "post": true,
+      "put": true,
+      "delete": true
+    },
+    "place-my-order": {
+      "post": true
+    },
+    "orders": {
+      "get": true,
+      "post": true,
+      "put": true,
+      "delete": true
+    },
+    "delete-product":{
+      "delete":true
+    },
+    "ordersXproducts": {
+      "get": true,
+      "post": true,
+      "put": true,
+      "delete": true
+    },
+    "orderDetails": {
+      "get": true
+    },
+    "ordersByCustomers": {
+      "get": true
+    },
+    "login": {
+      "get": true,
+      "delete": true
+    },
+    "my-orders": {
+      "get": true
+    },
+    "edit-my-user-info": {
+      "put": true
+    },
+    "tablesAndViews": {
+      "get": true
+    },
+    "ordersByCustomer": {
+      "get": true
+    },
+    "sessions": {
+      "get": true
+    }
+  }
+}
